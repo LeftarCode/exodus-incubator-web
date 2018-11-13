@@ -1,0 +1,26 @@
+
+#incubator-view-exam {
+    .question-view {
+
+        .question-list {
+            padding: 0;
+            ul {
+                list-style: none;
+                padding: 0;
+                width: 100%;
+                margin: 0;
+                li {
+                    background: #43425D;
+                    color: #f4f4f4;
+                    text-align: center;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+
+        .question-content {
+
+        }
+    }
+}

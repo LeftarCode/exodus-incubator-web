@@ -1,0 +1,26 @@
+
+$color-light: #f4f4f4;
+$color-dark: #333742;
+$color-accent: #00aba0;
+
+@mixin background-parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin section {
+    width: 100vw;
+    text-align: center;    
+    color: $color-dark;
+    background: $color-light;
+}
+
+@mixin transition($property) {
+    -webkit-transition: $property;
+    -moz-transition: $property;
+    -ms-transition: $property;
+    -o-transition: $property;
+    transition: $property;
+}
